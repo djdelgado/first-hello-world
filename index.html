@@ -3,9 +3,10 @@
 <html>
     <head>
         <title>David's Supersweet Website</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <style>
             body {
-                background: rgb(179, 179, 179);
+                background: rgb(79, 79, 79);
                 color: rgb(45, 45, 45);
                 padding: 10px;
                 font-family: arial;
@@ -21,7 +22,7 @@
 
             /* navigation menu */
             nav {
-                background: rgb(130, 161, 154);
+                background: rgb(70, 109, 132);
                 margin: 0 auto;
                 margin-bottom: 20px;
                 display: flex;
@@ -53,17 +54,31 @@
             [class=sidebar] {
                 margin-right: 25px;
                 padding: 10px;
+                text-align: center;
             }
             [class=sidebar] img {
                 width: 200px;
-                border-radius: 25px;
+                border-radius: 5px;
             }
             [class=content] {
                 flex: 1;
                 padding: 15px;
             }
+            [class=content] header{
+                font-size: 2em;
+            }
+            [class=content] p{
+                font-style: italic;
+            }
+            [class=interests] {
+                background: rgb(70, 109, 132);
+                padding: 15px;
+                width: 250px;
+                color: #fff;
+            }
             [class=interests] header {
                 font-size: 1.25em;
+                text-decoration: underline;
             }
         </style>
     </head>
@@ -71,7 +86,7 @@
     <body>
         <div id="all-content">
             <nav>
-                <header>David's Supersweet Website</header>
+                <header><a href="index.html">David's Supersweet Website</a></header>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
@@ -82,12 +97,20 @@
             <main>
                 <div class="sidebar">
                     <img src="https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/17021983_624613527742505_5618855823026323711_n.jpg?oh=d7ad878ea514907ac60e7998537be3e0&oe=5970A17A"></img>
+                    <li style="list-style-type: none;">
+                        
+                        <a href="https://www.linkedin.com/in/david-delgado-874b923a/">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn_logo" style="width:50px;height:50px;"></img></a>
+                        <a href="https://www.facebook.com/daviddelgadorealtor/">
+                            <img src="http://seeklogo.com/images/F/facebook-logo-C64946D6D2-seeklogo.com.png" alt="FB_logo" style="width:50px;height:50px;"></img></a>
+                    
+                    </li>
                 </div>
                 
                 <div class="content">
-                    <header>David Delgado</header>
+                    <header>David J. Delgado</header>
                     <p>
-                        Realtor at Latter & Blum, Inc.
+                        Realtor
                     </p>
                     <section class="interests">
                         <header>Interests</header>
