@@ -1,0 +1,53 @@
+.example-form {
+    /* Just to center the form on the page, use: margin: 0 auto;*/
+    margin: 20px;
+    width: 400px;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+.example-form div + div {
+    margin-top: 1em;
+}
+
+.example-form label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: inline-block;
+    width: 90px;
+}
+
+
+.example-form input:focus,
+
+
+table {
+    margin: 20px;
+}
+th{
+    text-align: center;
+}
+td {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 4px;
+}
+
+.my-grid {
+    margin: 20px;
+    border: 5px solid black;
+}
+
+.row-img {
+    margin: 4px;
+    width: 150px; 
+    height: 150px;
+}
